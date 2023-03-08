@@ -1,0 +1,12 @@
+.example {
+    --example-bg-color: var(--color-primary, --color-primary);
+    background-color: var(--example-bg-color);
+}
+
+.example.error {
+    --example-bg-color: var(--color-error);
+}
+
+.example.warning {
+    --example-bg-color: var(--color-warning);
+}

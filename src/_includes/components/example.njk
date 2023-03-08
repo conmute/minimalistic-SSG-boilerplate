@@ -1,0 +1,10 @@
+<figure class="p-10">
+    <figcaption class="text-xl">
+        Component Example
+    </figcaption>
+    <ul class="list-none list-inside">
+        {% for i in range(0, 5) -%}
+            <li class=" hover:list-disc">{{ i }}</li>
+        {%- endfor %}
+    </ul>
+</figure>
